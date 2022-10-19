@@ -7,14 +7,11 @@ import java.time.LocalDate;
 
 @Builder
 @Value
-public class User {
+public class Category {
 
     String name;
-    String lastName;
-    String email;
-    String password;
+
     Boolean status;
-    LocalDate birthDate;
+
     LocalDate createdAt;
-    LocalDate updatedAt;
 }
